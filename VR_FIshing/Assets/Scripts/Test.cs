@@ -4,19 +4,18 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    public LineRenderer line;
-    public Transform pos1;
-    public Transform pos2;
+    [SerializeField]private LineRenderer line;
+    [SerializeField] private Transform pos1;
+    [SerializeField] private Transform pos2;
+    [SerializeField] private Transform HookPos;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   
 
     // Update is called once per frame
     void Update()
     {
         line.SetPosition(0, pos1.position);
         line.SetPosition(1, pos2.position);
+        line.SetPosition(2, HookPos.position);
     }
 }
