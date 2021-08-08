@@ -3,7 +3,12 @@ guid: cb77e7c0df4d753469b93b8607e13f58
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Reel_Slot_Material
+    second: {fileID: 2100000, guid: 6e78bc4d8314ada49aeef70e917bd072, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
